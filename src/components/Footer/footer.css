@@ -1,0 +1,44 @@
+.footer{
+    background-color: rgb(133, 75, 0);
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    gap: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.col1{
+    flex: 2;
+}
+
+.col1 p{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.col1 h1{
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.col2, .col2{
+    flex: 1;
+}
+
+.cr {
+    background-color: rgb(133, 75, 0);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 0;
+    }
+}

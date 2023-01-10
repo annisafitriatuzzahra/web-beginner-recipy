@@ -1,0 +1,17 @@
+.footerCol .heading{
+    font-size: 20px;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footerCol li{
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footerCol a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+}

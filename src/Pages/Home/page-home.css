@@ -1,0 +1,40 @@
+.pageHome{
+    padding: 1rem;
+    display: flex;
+    background: url(./bggg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content{
+    min-height: 75vh;
+    text-align: start;
+    padding: 4rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+h1{
+    margin-top: 2rem;
+}
+
+.content h1, h2{
+    font-size: 50px;
+    color: rgb(133, 75, 0);
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+.content h2{
+    margin-bottom: 0.5rem;
+}
+
+.content h2 span{
+    color: #ff8c00;
+}
+
+.content p{
+    font-size: 20px;
+    color: rgb(133, 75, 0);
+}
